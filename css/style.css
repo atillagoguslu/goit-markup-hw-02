@@ -110,6 +110,7 @@ body {
 }
 
 .features-headings-3 {
+  letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -137,10 +138,15 @@ body {
   background-color: var(--white);
 }
 .team-list-heading-3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--navy-blue);
   letter-spacing: 0.02em;
   text-align: center;
 }
 .team-list-paragraphs {
+  line-height: 150%;
   font-size: 16px;
   text-align: center;
 }
@@ -153,6 +159,13 @@ body {
   color: var(--navy-blue);
   text-transform: capitalize;
   letter-spacing: 0.02em;
+}
+.portfolio-heading-3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
 }
 .portfolio-paragraphs {
   font-weight: 400;
@@ -170,5 +183,6 @@ body {
   color: var(--cloud);
 }
 .footer-paragraph {
+  line-height: 150%;
   color: var(--cloud);
 }
