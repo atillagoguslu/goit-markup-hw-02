@@ -107,7 +107,15 @@ body {
 .hero-button:focus {
   background-color: var(--ocean);
 }
-
+.features-heading-2 {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em; /* Sanırım Heading inherit değil bu özelliğinde. */
+  line-height: 111%;
+  text-align: center;
+  color: var(--navy-blue);
+  text-transform: capitalize;
+}
 .features-headings-3 {
   letter-spacing: 0.02em;
   font-weight: 500;
