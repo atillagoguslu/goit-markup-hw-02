@@ -89,12 +89,14 @@ body {
 .hero-heading {
   font-weight: 700;
   font-size: 56px;
+  letter-spacing: 0.02em;
   line-height: 107%;
   text-align: center;
   color: var(--white);
 }
 .hero-button {
   font-family: inherit;
+  color: var(--white);
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -107,34 +109,56 @@ body {
   background-color: var(--ocean);
 }
 
-h3 {
+.features-headings-3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   color: var(--navy-blue);
 }
-p {
+.features-paragraphs {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: var(--slate);
 }
-h2 {
+.team-heading-2 {
   font-weight: 700;
   font-size: 36px;
+  letter-spacing: 0.02em; /* Sanırım Heading inherit değil bu özelliğinde. */
   line-height: 111%;
   text-align: center;
   color: var(--navy-blue);
+  text-transform: capitalize;
 }
 .team {
   background: var(--cloud);
 }
-.team > h3 {
-  color: red;
+.team-list-li {
+  background-color: var(--white);
+}
+.team-list-heading-3 {
+  letter-spacing: 0.02em;
   text-align: center;
 }
-.team > p {
+.team-list-paragraphs {
+  font-size: 16px;
   text-align: center;
+}
+.portfolio-heading-2 {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em; /* Sanırım Heading inherit değil bu özelliğinde. */
+  line-height: 111%;
+  text-align: center;
+  color: var(--navy-blue);
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+}
+.portfolio-paragraphs {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--slate);
 }
 /* Body kısmı burada bitiyor. */
 
