@@ -66,10 +66,9 @@ header {
   font-weight: 400;
   color: var(--slate);
 }
-.adress-links:hover {
-  color: var(--ocean);
-}
-.adress-links:focus {
+
+.links-color-on-hover:hover,
+.links-color-on-hover:focus {
   color: var(--ocean);
 }
 
