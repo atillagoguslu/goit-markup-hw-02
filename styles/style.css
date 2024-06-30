@@ -72,12 +72,62 @@ address {
 /* Bod kısmı buradan başlıyor. */
 body {
   font-family: var(--font-family);
+  letter-spacing: 0.02em;
 }
 
-button {
+.hero {
+  background-color: var(--navy-blue);
 }
-
 h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  text-align: center;
+  color: var(--white);
 }
-
+button {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: var(--iris);
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--navy-blue);
+}
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--slate);
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  text-align: center;
+  color: var(--navy-blue);
+}
+.team {
+  background: var(--cloud);
+}
+.team > h3 {
+  color: red;
+  text-align: center;
+}
+.team > p {
+  text-align: center;
+}
 /* Body kısmı burada bitiyor. */
+
+/* Footer kısmı buradan başlıyor. */
+footer {
+  background: var(--navy-blue);
+}
+.footer-paragraph {
+  color: var(--cloud);
+}
