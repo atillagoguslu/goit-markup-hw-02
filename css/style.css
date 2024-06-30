@@ -57,14 +57,22 @@ header {
 .logo-second-side {
   color: var(--navy-blue);
 }
-nav {
+.nav-links {
   font-weight: 500;
   color: var(--navy-blue);
 }
-address {
+.address-neutralize {
+  font-style: normal;
   font-weight: 400;
   color: var(--slate);
 }
+.adress-links:hover {
+  color: var(--ocean);
+}
+.adress-links:focus {
+  color: var(--ocean);
+}
+
 /* Header kısmı burada bitiyor. */
 
 /* Bod kısmı buradan başlıyor. */
@@ -72,27 +80,33 @@ body {
   font-family: var(--font-family);
   letter-spacing: 0.02em;
   color: var(--slate);
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 
 .hero {
   background-color: var(--navy-blue);
 }
-h1 {
+.hero-heading {
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
   text-align: center;
   color: var(--white);
 }
-button {
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+.hero-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
   background: var(--iris);
+  cursor: pointer;
 }
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--ocean);
+}
+
 h3 {
   font-weight: 500;
   font-size: 20px;
