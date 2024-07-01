@@ -107,7 +107,7 @@ body {
 .hero-button:focus {
   background-color: var(--ocean);
 }
-.features-heading-2 {
+.features-heading {
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.02em; /* Sanırım Heading inherit değil bu özelliğinde. */
@@ -116,7 +116,7 @@ body {
   color: var(--navy-blue);
   text-transform: capitalize;
 }
-.features-headings-3 {
+.features-headings {
   letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 20px;
@@ -129,7 +129,7 @@ body {
   line-height: 150%;
   color: var(--slate);
 }
-.team-heading-2 {
+.team-heading {
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.02em; /* Sanırım Heading inherit değil bu özelliğinde. */
@@ -144,7 +144,7 @@ body {
 .team-list-li {
   background-color: var(--white);
 }
-.team-list-heading-3 {
+.team-list-heading {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -157,7 +157,7 @@ body {
   font-size: 16px;
   text-align: center;
 }
-.portfolio-heading-2 {
+.portfolio-headingtwo {
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.02em; /* Sanırım Heading inherit değil bu özelliğinde. */
@@ -167,7 +167,7 @@ body {
   text-transform: capitalize;
   letter-spacing: 0.02em;
 }
-.portfolio-heading-3 {
+.portfolio-heading {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
